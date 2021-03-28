@@ -13,3 +13,16 @@
     border: none;
     cursor: pointer;
 }
+
+@mixin flexCentered($justifyContent: center, $alignItems: center) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+@mixin grid ($leftMargin: -30px, $topMargin: -30px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: $leftMargin;
+    margin-top: $topMargin;
+}

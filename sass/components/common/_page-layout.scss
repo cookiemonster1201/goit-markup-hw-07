@@ -5,8 +5,7 @@
 
 .header__container {
     @extend %container;
-    display: flex;
-    align-items: center;
+    @include flexCentered($justifyContent: space-between);
 }
 
 .footer {

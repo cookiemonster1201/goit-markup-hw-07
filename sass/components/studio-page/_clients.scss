@@ -1,9 +1,6 @@
 .regular-clients {
     @extend %list;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
+    @include grid();
 }
 
 .regular-clients__item {
@@ -16,9 +13,7 @@
 
 .regular-clients__link {
     @extend %link;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCentered();
     width: 100%;
     height: 100%;
     border: 1px solid rgba(175, 177, 184, 1);

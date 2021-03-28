@@ -34,12 +34,10 @@
 }
 
 .modal__close-button {
+    @include flexCentered();
     position: absolute;
     top: 8px;
     right: 8px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     padding: 0;
     width: 30px;
     height: 30px;

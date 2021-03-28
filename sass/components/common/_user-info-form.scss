@@ -82,9 +82,7 @@
 } 
 
 .user-info-form__terms-label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCentered();
     margin-bottom: 30px;
     font-family: $mainFont;
     font-size: 14px;

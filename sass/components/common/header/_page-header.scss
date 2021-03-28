@@ -1,11 +1,10 @@
 .header__nav {
-    display: flex;
-    align-items: center;
+    @include flexCentered();
 }
 
 .nav-menu {
     @extend %list;
-    display: flex;
+    @include flexCentered();
     margin-left: 93px;
 
     &__item:not(:first-child) {
@@ -51,9 +50,7 @@
 
 .contacts {
     @extend %list;
-    display: flex;
-    margin-left: auto;
-    align-items: center;
+    @include flexCentered();
 }
 
 .contacts__icon {
@@ -63,8 +60,7 @@
 
 .contacts__link {
     @extend %link;
-    display: flex;
-    align-items: center;
+    @include flexCentered();
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;

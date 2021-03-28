@@ -1,7 +1,6 @@
 .projects-filter {
     @extend %list;
-    display: flex;
-    justify-content: center;
+    @include flexCentered();
     margin-bottom: 50px;
 }
 

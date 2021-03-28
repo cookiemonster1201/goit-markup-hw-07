@@ -1,8 +1,6 @@
 .features {
     @extend %list;
-    display: flex;
-    margin-left: -30px;
-    margin-top: -30px;
+    @include grid();
 }
 
 .features__item {
@@ -12,9 +10,7 @@
 }
 
 .features__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCentered();
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
