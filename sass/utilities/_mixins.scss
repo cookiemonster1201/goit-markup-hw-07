@@ -1,0 +1,15 @@
+
+@mixin button($padding, $fontWeight, $lineHeight, $letterSpacing, $bgColor, $color) {
+    padding: $padding;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: $fontWeight;
+    font-size: 16px;
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing;
+    color: $color;
+    background-color: $bgColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+}

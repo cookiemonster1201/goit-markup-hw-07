@@ -1,0 +1,47 @@
+%list {
+    list-style: none;
+}
+
+%link {
+    text-decoration: none;
+}
+
+%address {
+    font-style: normal;
+}
+
+%visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+%container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+%section {
+    padding-top: $sectionPaddingVertical;
+    padding-bottom: $sectionPaddingVertical;
+    background-color: $primaryBgColor;
+}
+
+%appeal-text {
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $darkThemeTextColor;
+}

@@ -1,0 +1,69 @@
+.header {
+    background-color: $primaryBgColor;
+    border-bottom: 1px solid #eee;
+}
+
+.header__container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $footerBgColor;
+}
+
+.footer__container {
+    @extend %container;
+    display: flex;
+    align-items: baseline;
+}
+
+.hero__container {
+    @extend %container;
+}
+
+.about {
+    @extend %section;
+    padding-bottom: 47px;
+}
+
+.about__container {
+    @extend %container;
+}
+
+.clients {
+    @extend %section;
+}
+
+.clients__container {
+    @extend %container;
+}
+
+.employees {
+    @extend %section;
+    background-color: $secondaryBgColor;
+}
+
+.employees__container {
+    @extend %container;
+}
+
+.services {
+    @extend %section;
+    padding-top: 47px;
+}
+
+.services__container {
+    @extend %container;
+}
+
+.portfolio {
+    @extend %section;
+}
+
+.portfolio__container {
+    @extend %container;
+}
