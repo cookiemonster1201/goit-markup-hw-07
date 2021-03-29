@@ -65,7 +65,7 @@ img {
 
 .footer__invitation, .footer__appeal {
   margin-bottom: 20px;
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -866,7 +866,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.button-centered {
+.user-info-form__button {
   padding: 10px;
   border-radius: 4px;
   font-family: inherit;
