@@ -9,7 +9,7 @@
 }
 
 .projects-filter__button {
-  @include button(6px 22px, 500, 1.62, 0.03em, #f5f4fa, $secondaryTextColor);
+  @include button(6px 22px, 500, 1.62, 0.03em, #f5f4fa, $secondaryTextColor, none);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
